@@ -124,12 +124,33 @@ body {
     margin: 2rem auto;
 }
 
+
+/* styling the aside bar */
 .box2 {
     width: 30%;
     order: 1;
-    padding: 1rem;
+    padding: .5rem;
 
     border: 1px solid blue;
+}
+
+.thumbnail {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+.thumbnail-img {
+    max-width: 40%;
+    display: inline-block;
+}
+
+.thumbnail-title {
+    display: inline-block;
+}
+
+.thumbnail-text {
+    display: inline-block;
 }
 
 .box3 {
