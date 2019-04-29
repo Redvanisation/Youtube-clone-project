@@ -37,12 +37,37 @@ body {
     width: 100%;
 }
 
+/* styling the video container element */
 .box1 {
     width: 70%;
     order: 0;
     padding: 2rem 6rem;
 
     border: 1px solid green;
+}
+
+/* styling the video player and its description and buttons */
+
+.video-info {
+    margin: 1rem;
+}
+
+.video-title {
+    margin: .5rem 0;
+}
+.video-views {
+    font-weight: 400;
+    color: gray;
+    display: inline-block;
+}
+
+.video-interaction {
+    margin: .5rem;
+    color: gray;
+}
+
+#like {
+    margin-left: 60%;
 }
 
 .box2 {
