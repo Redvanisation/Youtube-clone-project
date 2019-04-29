@@ -65,6 +65,7 @@ body {
 .video-interaction {
     margin: .5rem;
     color: gray;
+    cursor: pointer;
 }
 
 #like {
@@ -74,33 +75,54 @@ body {
 /* styling the description section */
 
 .description {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding: 1rem;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .avatar {
-    width: 10rem;
-    height: 10rem;
-    /* border: 1px solid black; */
     border-radius: 1000rem;
+    display: inline-block;
+    /* border: 1px solid red; */
+    order: 0;
 }
 
 .image {
     max-width: 100%;
     max-height: 100%;
+    height: 5rem;
+    width: 5rem;
     border-radius: 1000rem;
-    border: 1px solid black;
+    padding: .5rem;
 }
 
 
-.details {}
+.details {
+    /* display: inline-block; */
+    /* border: 1px solid purple; */
+    order: 1;
+    width: 72%;
+    padding: .5rem 1rem;
+}
 
-.subscribe {}
+.subscribe {
+    width: 18%;
+    height: 50px;
+    order: 2;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
-.topic {}
+.topic {
+    order: 3;
+    margin: 2rem auto;
+}
 
 .box2 {
     width: 30%;
