@@ -15,6 +15,22 @@ body {
     padding: 2rem;
 }
 
+
+.title {
+    display: inline-block;
+    width: 30%;
+}
+
+.text {
+    width: 30%;
+
+}
+
+.submit-btn {
+
+    width: 50px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
