@@ -55,6 +55,7 @@ body {
 .video-title {
     margin: .5rem 0;
 }
+
 .video-views {
     font-weight: 400;
     color: gray;
@@ -69,6 +70,37 @@ body {
 #like {
     margin-left: 60%;
 }
+
+/* styling the description section */
+
+.description {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid green;
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    /* border: 1px solid black; */
+    border-radius: 1000rem;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1000rem;
+    border: 1px solid black;
+}
+
+
+.details {}
+
+.subscribe {}
+
+.topic {}
 
 .box2 {
     width: 30%;
