@@ -11,8 +11,7 @@ body {
 }
 
 .nav {
-    /* background-color: red; */
-    padding: 3rem;
+    padding: 2.5rem 3rem 4rem 3rem;
     margin: -7.1rem auto auto auto;
     position: fixed;
     z-index: 1000;
@@ -32,12 +31,17 @@ body {
 }
 
 .text {
-    width: 30%;
-
+    width: 35%;
+    padding: .5rem;
+    font-size: 1rem;
 }
 
 .submit-btn {
-    width: 50px;
+    width: 60px;
+    height: 30px;
+    padding: .5rem;
+    margin-top: -5rem;
+
 }
 
 .container {
@@ -66,6 +70,13 @@ body {
     margin: .5rem 0;
 }
 
+.video-btns {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem 0;
+    justify-content: space-between;
+}
+
 .video-views {
     font-weight: 400;
     color: gray;
@@ -73,13 +84,9 @@ body {
 }
 
 .video-interaction {
-    margin: .5rem;
+    margin: .2rem;
     color: gray;
     cursor: pointer;
-}
-
-#like {
-    margin-left: 60%;
 }
 
 /* styling the description section */
@@ -89,7 +96,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     padding: 1rem;
-    /* border: 1px solid green; */
+    justify-content: space-between;
 }
 
 .avatar {
@@ -186,13 +193,21 @@ body {
     margin: .2rem 0;
 }
 
-
+/* styling the comments section and its components */
 .box3 {
     width: 70%;
     order: 2;
     padding: 1rem 6rem;
 
     /* border: 1px solid purple; */
+}
+
+.comment {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    /* border: 1px solid green; */
 }
 
 .forum{
@@ -212,4 +227,22 @@ body {
     width: 80%;
     margin-left: 1rem;
     margin-top: .5rem;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .box1 {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+    .box3 {
+        width: 100%;
+    }
+
+    .thumbnail {
+        margin: 0 auto;
+        width: 50%;
+    }
 }
