@@ -27,6 +27,8 @@ body {
 .title {
     display: inline-block;
     width: 30%;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .text {
@@ -190,5 +192,24 @@ body {
     order: 2;
     padding: 1rem 6rem;
 
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
+}
+
+.forum{
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 80%;
+    
+}
+.forum-input{
+    border: none;
+    width: 70%;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+.forum-text{
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: .5rem;
 }
