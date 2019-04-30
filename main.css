@@ -11,8 +11,16 @@ body {
 }
 
 .nav {
-    background-color: red;
-    padding: 2rem;
+    /* background-color: red; */
+    padding: 3rem;
+    margin: -7.1rem auto auto auto;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+     box-shadow: 0 4px 2px rgba(0,0,0,.05);
+     /* opacity: 0; */
 }
 
 
@@ -27,7 +35,6 @@ body {
 }
 
 .submit-btn {
-
     width: 50px;
 }
 
@@ -35,6 +42,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 100px;
 }
 
 /* styling the video container element */
@@ -43,7 +51,7 @@ body {
     order: 0;
     padding: 2rem 6rem;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 /* styling the video player and its description and buttons */
@@ -108,15 +116,23 @@ body {
 }
 
 .subscribe {
-    width: 18%;
-    height: 50px;
+    width: 170px;
+    height: 45px;
     order: 2;
     background-color: red;
     color: white;
     font-size: 1rem;
+    /* font-weight: 600; */
+    text-transform: uppercase;
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    transition: all .1s;
+}
+
+.subscribe:active {
+    background-color: gray;
+    color: white;
 }
 
 .topic {
@@ -130,28 +146,44 @@ body {
     width: 30%;
     order: 1;
     padding: .5rem;
-
-    border: 1px solid blue;
+    /* border-left: 1px solid gray; */
+    /* border: 1px solid blue; */
 }
 
 .thumbnail {
     width: 100%;
-    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
     padding: 1rem;
+    display: flex;
 }
 
 .thumbnail-img {
-    max-width: 40%;
+    margin-right: 8px;
+    height: 94px;
+    width: 168px;
+    cursor: pointer;
+}
+
+.thumbnail-div {
     display: inline-block;
+    height: 100%;
+    padding: .5rem;
 }
 
 .thumbnail-title {
     display: inline-block;
+    cursor: pointer;
+    margin: .2rem 0;
 }
 
-.thumbnail-text {
-    display: inline-block;
+.thumbnail-text,
+.thumbnail-views {
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+    margin: .2rem 0;
 }
+
 
 .box3 {
     width: 70%;
