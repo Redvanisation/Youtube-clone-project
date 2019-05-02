@@ -11,15 +11,14 @@ body {
 }
 
 .nav {
-    padding: 2.5rem 3rem 4rem 3rem;
-    margin: -7.1rem auto auto auto;
+    padding: 2.5rem 3rem 4rem;
+    margin: -7.1rem auto auto;
     position: fixed;
     z-index: 1000;
     width: 100%;
     height: 80px;
     background-color: white;
-     box-shadow: 0 4px 2px rgba(0,0,0,.05);
-     /* opacity: 0; */
+    box-shadow: 0 4px 2px rgba(0,0,0,.05);
 }
 
 
@@ -45,8 +44,6 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     margin-top: 100px;
 }
@@ -57,10 +54,14 @@ body {
     order: 0;
     padding: 2rem 6rem;
 
-    /* border: 1px solid green; */
 }
 
 /* styling the video player and its description and buttons */
+
+.video-div {
+    height: 60%;
+    width: 100%;
+}
 
 .video-info {
     margin: 1rem;
@@ -71,8 +72,6 @@ body {
 }
 
 .video-btns {
-    display: flex;
-    flex-wrap: wrap;
     padding: .5rem 0;
     justify-content: space-between;
 }
@@ -92,8 +91,6 @@ body {
 /* styling the description section */
 
 .description {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     padding: 1rem;
     justify-content: space-between;
@@ -155,15 +152,11 @@ body {
     width: 30%;
     order: 1;
     padding: .5rem;
-    /* border-left: 1px solid gray; */
-    /* border: 1px solid blue; */
 }
 
 .thumbnail {
     width: 100%;
-    /* border-bottom: 1px solid gray; */
     padding: 1rem;
-    display: flex;
 }
 
 .thumbnail-img {
@@ -203,8 +196,6 @@ body {
 }
 
 .comment {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     padding: 1rem;
     /* border: 1px solid green; */
@@ -227,6 +218,12 @@ body {
     width: 80%;
     margin-left: 1rem;
     margin-top: .5rem;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
