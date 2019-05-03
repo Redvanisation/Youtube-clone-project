@@ -63,6 +63,11 @@ body {
     width: 100%;
 }
 
+.vid-iframe {
+    height: 100%;
+    width: 100%;
+}
+
 .video-info {
     margin: 1rem;
 }
