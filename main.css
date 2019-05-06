@@ -1,0 +1,253 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.nav {
+    padding: 2.5rem 3rem 4rem;
+    margin: -7.1rem auto auto;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 4px 2px rgba(0,0,0,.05);
+}
+
+
+.title {
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.text {
+    width: 35%;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    width: 60px;
+    height: 30px;
+    padding: .5rem;
+    margin-top: -5rem;
+
+}
+
+.container {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/* styling the video container element */
+.box1 {
+    width: 70%;
+    order: 0;
+    padding: 2rem 6rem;
+
+}
+
+/* styling the video player and its description and buttons */
+
+.video-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.vid-iframe {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.video-info {
+    margin: 1rem;
+}
+
+.video-title {
+    margin: .5rem 0;
+}
+
+.video-btns {
+    padding: .5rem 0;
+    justify-content: space-between;
+}
+
+.video-views {
+    font-weight: 400;
+    color: gray;
+    display: inline-block;
+}
+
+.video-interaction {
+    margin: .2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+/* styling the description section */
+
+.description {
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.avatar {
+    border-radius: 1000rem;
+    display: inline-block;
+    /* border: 1px solid red; */
+    order: 0;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1000rem;
+    padding: .5rem;
+}
+
+
+.details {
+    /* display: inline-block; */
+    /* border: 1px solid purple; */
+    order: 1;
+    width: 72%;
+    padding: .5rem 1rem;
+}
+
+.subscribe {
+    width: 170px;
+    height: 45px;
+    order: 2;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.subscribe:active {
+    background-color: gray;
+    color: white;
+}
+
+.topic {
+    order: 3;
+    margin: 2rem auto;
+}
+
+
+/* styling the aside bar */
+.box2 {
+    width: 30%;
+    order: 1;
+    padding: .5rem;
+}
+
+.thumbnail {
+    width: 100%;
+    padding: 1rem;
+}
+
+.thumbnail-img {
+    margin-right: 8px;
+    height: 94px;
+    width: 168px;
+    cursor: pointer;
+}
+
+.thumbnail-div {
+    display: inline-block;
+    height: 100%;
+    padding: .5rem;
+}
+
+.thumbnail-title {
+    display: inline-block;
+    cursor: pointer;
+    margin: .2rem 0;
+}
+
+.thumbnail-text,
+.thumbnail-views {
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+    margin: .2rem 0;
+}
+
+/* styling the comments section and its components */
+.box3 {
+    width: 70%;
+    order: 2;
+    padding: 1rem 6rem;
+
+    /* border: 1px solid purple; */
+}
+
+.comment {
+    width: 100%;
+    padding: 1rem;
+    /* border: 1px solid green; */
+}
+
+.forum{
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 80%;
+    
+}
+.forum-input{
+    border: none;
+    width: 70%;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+.forum-text{
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .box1 {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+    .box3 {
+        width: 100%;
+    }
+
+    .thumbnail {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
