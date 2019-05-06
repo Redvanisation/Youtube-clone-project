@@ -1,4 +1,4 @@
-# Microverse-youtube-clone-project
+# Youtube-clone-project
 
 
 This project is a clone of Youtube. It majorly tests knowledge of linking internal and  external pages. It is also about embedding images, videos on a website. 
